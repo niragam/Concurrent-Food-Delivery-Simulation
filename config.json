@@ -1,0 +1,14 @@
+{
+  "Producers": [
+    { "Restaurant": "Restaurant 1", "FoodType": "Pizza",  "Orders": 50, "QueueSize": 5 },
+    { "Restaurant": "Restaurant 2", "FoodType": "Burger", "Orders": 50, "QueueSize": 5 },
+    { "Restaurant": "Restaurant 3", "FoodType": "Sushi",  "Orders": 50, "QueueSize": 5 }
+  ],
+  "Zones": [
+    { "Name": "PizzaZone",  "Workers": 2 },
+    { "Name": "BurgerZone", "Workers": 4 },
+    { "Name": "SushiZone",  "Workers": 1 }
+  ],
+  "ZoneQueueSize": 20,
+  "HTTPServerPort": 8080
+}
